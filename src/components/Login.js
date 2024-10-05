@@ -41,21 +41,21 @@ export default function Login(props) {
     }
   };
   return (
-    <div className="container">
-      <h1 style={{ marginTop: "80px", marginLeft: "32%" }}>
-        Login into a Account
-      </h1>
+    <div className="container1" style={{width:"100%",display:"flex",justifyContent:"center",position:"fixed",left: "50%",transform: "translateX(-50%)",alignItems:"center",top:"100px",zIndex:"10",margin:"0px 0px 0px 00px"}}>
       <div
         className="container"
         style={{
           marginTop: "20px",
-          width: "500px",
-          height: "420px",
-          border: "2px solid black",
+          maxWidth: "500px",
+          minHeight: "400px",
+          border: "2px solid #EAEAEA",
           boxSizing: "border-box",
           paddingTop: "40px",
-          borderRadius: "4px",
+          borderRadius: "12px",
           boxShadow: "0px 10px 25px #000",
+          fontWeight:"700",
+          background:"linear-gradient(#34053E,black)",//#E4F1E8
+          opacity:"0.8",
         }}
       >
         <form onSubmit={handleonClick} style={{ columnGap: "20px" }}>

@@ -43,21 +43,22 @@ export default function Signup(props) {
   };
   return (
     <>
-    <div className="container">
-    <h1 style={{marginTop:"80px",marginLeft:"30%"}}>Create a new Account</h1>
-    <div
-      className="container"
-      style={{
-        marginTop: "20px",
-        width: "500px",
-        height: "480px",
-        border: "2px solid black",
-        boxSizing: "border-box",
-        paddingTop: "0px",
-        borderRadius: "4px",
-        boxShadow: "0px 10px 25px #000"
-      }}
-    >
+    <div className="container1" style={{width:"100%",display:"flex",justifyContent:"center",position:"fixed",left: "50%",transform: "translateX(-50%)",alignItems:"center",top:"100px",zIndex:"10",margin:"0px 0px 0px 0px"}}>
+      <div
+        className="container"
+        style={{
+          maxWidth: "500px",
+          minHeight: "400px",
+          border: "2px solid #EAEAEA",
+          boxSizing: "border-box",
+          paddingTop: "10px",
+          borderRadius: "12px",
+          boxShadow: "0px 10px 25px #000",
+          fontWeight:"700",
+          background:"linear-gradient(#34053E,black)",//#E4F1E8
+          opacity:"0.8",
+        }}
+      >
       <form onSubmit={handleonClick}>
         <div
           className="mb-3 my-4"
