@@ -1,0 +1,26 @@
+.container2{
+    position: absolute;
+    top:60px;
+    right:170px;
+    height: 80px;
+    width: 200px;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    background-color: rgb(63, 46, 70);
+    border-radius: 2px;
+    scrollbar-width: none;
+}
+#searchbtn{
+    font-size: 12px;
+    height: fit-content;
+    margin-right:8px;
+}
+#style{
+    width: 100%;
+    padding: 5px 0px 5px 15px;
+}
+#style:hover{
+    background-color: rgb(89, 79, 90);
+    cursor:all-scroll;
+    cursor: pointer;
+}
